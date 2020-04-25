@@ -1,3 +1,4 @@
+
 #ifndef lidarData_hpp
 #define lidarData_hpp
 
