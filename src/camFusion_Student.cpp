@@ -207,7 +207,7 @@ void computeTTCLidar(std::vector<LidarPoint> &lidarPointsPrev,
                      std::vector<LidarPoint> &lidarPointsCurr, double frameRate, double &TTC)
 {
 
-    float lane_wide = 5.0;  //lane_width
+    float lane_wide = 4.0;  //lane_width
     //Here, we will only take into account the ego car lane
 
     std::vector<float> ppx;
