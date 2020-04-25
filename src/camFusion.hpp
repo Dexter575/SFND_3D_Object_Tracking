@@ -1,4 +1,3 @@
-
 #ifndef camFusion_hpp
 #define camFusion_hpp
 

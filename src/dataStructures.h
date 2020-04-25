@@ -6,11 +6,13 @@
 #include <map>
 #include <opencv2/core.hpp>
 
-struct LidarPoint { // single lidar point in space
+struct LidarPoint
+{ // single lidar point in space
     double x,y,z,r; // x,y,z in [m], r is point reflectivity
 };
 
-struct BoundingBox { // bounding box around a classified object (contains both 2D and 3D data)
+struct BoundingBox
+{ // bounding box around a classified object (contains both 2D and 3D data)
     
     int boxID; // unique identifier for this bounding box
     int trackID; // unique identifier for the track to which this bounding box belongs
@@ -24,7 +26,9 @@ struct BoundingBox { // bounding box around a classified object (contains both 2
     std::vector<cv::DMatch> kptMatches; // keypoint matches enclosed by 2D roi
 };
 
-struct DataFrame { // represents the available sensor information at the same time instance
+struct DataFrame
+{   
+    // represents the available sensor information at the same time instance
     
     cv::Mat cameraImg; // camera image
     

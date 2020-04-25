@@ -1,4 +1,3 @@
-
 #ifndef objectDetection2D_hpp
 #define objectDetection2D_hpp
 
