@@ -314,7 +314,7 @@ int main(int argc, const char *argv[])
 
                     //// EOF STUDENT ASSIGNMENT
 
-                    bVis = true;//true;
+                    bVis = true;
                     if (bVis)
                     {
                         cv::Mat visImg = (dataBuffer.end() - 1)->cameraImg.clone();
